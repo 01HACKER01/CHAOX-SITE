@@ -133,8 +133,18 @@ nav a:hover {
   object-position: center;
 }
 
+.instagram {
+  color: #00ffcc;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Poppins;
+}
 
-
+.instagram:hover {
+  color: #00ffcc;
+  text-shadow: #49dabd;
+  text-decoration: underline;
+}
 
 
 
