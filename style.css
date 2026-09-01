@@ -108,7 +108,7 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 40px;
-
+  margin-left: 20px;
 }
 
 .card-about img {
