@@ -1,0 +1,198 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  background-image: url("images/lie.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+body {
+  color: white;
+}
+
+main {
+  position: relative;
+  z-index: 1;
+}
+
+.nav-about {
+  display: flex;
+}
+
+nav {
+  gap: 30px;
+  padding: 18px 25px;
+  background: #111;
+  border-radius: 40px;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px auto;
+  width: 90%;
+  box-sizing: border-box;
+}
+
+.ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: Poppins;
+
+}
+
+nav a:hover {
+  color: #00ffcc;
+  text-shadow: #53ffdd;
+}
+
+.name {
+    color: #00ffcc;
+    font-weight: bold;
+    font-size: 23px;
+    margin-right: auto;
+}
+
+.home, .about, .project, .contact {
+    margin-top: 04px;
+    display: flex;
+    
+}
+
+@view-transition {
+  navigation: auto;
+}
+
+
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #fdfdfd;
+}
+
+
+
+.profile img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 400px;
+  margin-top: 100px;
+  display: inline-block;
+  padding-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.card-about {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+
+}
+
+.card-about img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 400px;
+  margin-top: 100px;
+}
+
+.logo {
+  object-position: top;
+}
+
+.text-about {
+  max-width: 450px;
+  font-size: large;
+  font-family: poppins;
+}
+
+.contact {
+  object-position: center;
+}
+
+
+
+
+
+
+.contact1 {
+    display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #fdfdfd;
+  padding-bottom: 200px;
+}
+
+.hero-contact {
+  width: 857px;
+  height: 500px ;
+  padding-right: 10px;
+  display: flex;
+  object-fit: cover;
+}
+
+
+.text-contact2 {
+  color: #fcfcfc;
+  font-size: large;
+  font-family: poppins;
+  padding-bottom: 200px;
+}
+
+.card-project {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 400px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.text-project1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  color: #fdfdfd;
+  padding-bottom: 200px;
+}
+
+.logo-about {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 400px;
+  margin-top: 100px;
+  display: inline-block;
+}
+
+.text-contact1 {
+  color: #fcfcfc;
+  font-size: large;
+  font-family: poppins;
+  font-weight: bold;
+}
