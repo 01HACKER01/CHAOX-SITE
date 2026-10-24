@@ -13,6 +13,8 @@ and i m happy i was able to make it by myself mostly i needed the help of ai as 
 
 also i will include more features in the future..
 
+i made this website because i learned teh html and css so i thought i should try my skills adn make somthing but i started with small adn i will make more but rn for starters i think its good.
+
 
 for now i will keep it like this but when i learn the html css adn javascript fully i will make it more premium looking and functional
 
