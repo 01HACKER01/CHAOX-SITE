@@ -21,6 +21,7 @@ for now i will keep it like this but when i learn the html css adn javascript fu
  before teh website didnt had any projects 
 ### before pic:
 <img width="1901" height="656" alt="image" src="https://github.com/user-attachments/assets/c95a94b1-9d90-4332-b611-a736d702586e" />
+
 ### after pic:
 <img width="1903" height="926" alt="image" src="https://github.com/user-attachments/assets/da2d2d13-cf6a-420e-ae55-c0e991e09226" />
 
