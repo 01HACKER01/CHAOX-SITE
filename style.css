@@ -1,0 +1,310 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #080808;
+  color: white;
+  font-family: Arial, sans-serif;
+  background-image:
+    linear-gradient(#ffffff08 1px, transparent 1px),
+    linear-gradient(90deg, #ffffff08 1px, transparent 1px);
+
+  background-size: 45px 45px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+  transition: all 100ms ease-in-out;
+  background-color: transparent;
+  transition: all 300ms ease-in-out;
+  border-radius: 2px;
+}
+
+.h1 {
+  font-size: 60px;
+  font-family: Oswald, sans-serif;
+  color: aliceblue;
+}
+
+.intro {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.intro h3 {
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.intro p {
+  font-size: 20px;
+  margin-top: 10px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.names {
+  display: block;
+  opacity: 0;
+  padding: 4px 8px;
+  background-color: rgb(221, 221, 221);
+  position: absolute;
+  transform: translateY(-50px);
+  border-radius: 4px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 900px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.socials {
+  display: flex;
+  gap: 6px;
+
+  img {
+    cursor: pointer;
+    height: 50px;
+  }
+
+  button {
+    display:flex;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a:hover {
+    transform: scale(1.06);
+  }
+
+  a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    white-space: nowrap;
+    transition: transform 0.2s ease-in-out;
+    text-decoration: none;
+    
+  }
+}
+
+.proj {
+  margin-top: 50px;
+}
+
+
+.projects {
+  display: grid;
+  margin-top: 20px;
+  gap: 20px;
+  width: 100%;
+  object-fit: cover;
+  
+  img {
+    height: 350px;
+  }
+
+
+}
+
+.a {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 12px;
+}
+
+.btn img {
+  height: 40px;
+  display: block;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  transition: all 0.2s ease-in-out;
+  position: relative;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.btn:active {
+  transform: scale(0.95);
+}
+
+.btn::after {
+  content: attr(data-text);
+  position: absolute;
+  bottom: 120%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #c83232;
+  color: aliceblue;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s;
+  pointer-events: nones;
+}
+
+.btn:hover::after {
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+/* code written by ai */
+
+body {
+  width: 100%;
+  padding: 0 20px;
+  overflow-x: hidden;
+}
+
+img {
+  max-width: 100%;
+  object-fit: contain;
+}
+
+.intro p {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.a > img {
+  width: 50%;
+  height: auto;
+  flex-shrink: 0;
+}
+
+.aa {
+  flex: 1;
+  min-width: 0;
+}
+
+/* Tablets */
+@media (max-width: 768px) {
+  .top {
+    max-width: 100%;
+  }
+
+  .h1 {
+    font-size: 48px;
+  }
+
+  .intro h3 {
+    font-size: 38px;
+  }
+
+  .intro p {
+    font-size: 16px;
+  }
+
+  .a > img {
+    width: 45%;
+  }
+
+  .proj {
+    margin-top: 35px;
+  }
+}
+
+/* Mobile phones */
+@media (max-width: 480px) {
+  body {
+    padding: 0 14px;
+  }
+
+  .top {
+    gap: 12px;
+  }
+
+  .h1 {
+    font-size: 38px;
+  }
+
+  .socials img {
+    height: 35px;
+  }
+
+  .intro {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 6px;
+  }
+
+  .intro h3 {
+    font-size: 32px;
+  }
+
+  .intro p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 0;
+  }
+
+  .proj {
+    margin-top: 30px;
+  }
+
+  .a {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 100%;
+  }
+
+  .a > img {
+    width: 100%;
+    max-height: 260px;
+    object-fit: contain;
+  }
+
+  .aa {
+    width: 100%;
+  }
+
+  .aa p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .buttons {
+    gap: 14px;
+  }
+
+  .btn img {
+    height: 32px;
+  }
+}
