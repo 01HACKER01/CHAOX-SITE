@@ -1,8 +1,7 @@
 # CHAOX-SITE
 
+<img width="1902" height="925" alt="image" src="https://github.com/user-attachments/assets/375f527c-2983-45a9-9c4f-f6d690d4307e" />
 
-<img width="1909" height="879" alt="image" src="https://github.com/user-attachments/assets/86ea924b-aa44-4954-89af-0175fc7b0cbd" />
-<img width="1908" height="821" alt="image" src="https://github.com/user-attachments/assets/7c8b9a2a-cb81-4147-a363-f2594840d37a" />
 
 
 this is my personal site made by me with html, css and ai :embaressed 
@@ -17,5 +16,13 @@ i made this website because i learned teh html and css so i thought i should try
 
 
 for now i will keep it like this but when i learn the html css adn javascript fully i will make it more premium looking and functional
+
+## changes done are:
+ before teh website didnt had any projects 
+### before pic:
+<img width="1901" height="656" alt="image" src="https://github.com/user-attachments/assets/c95a94b1-9d90-4332-b611-a736d702586e" />
+### after pic:
+<img width="1903" height="926" alt="image" src="https://github.com/user-attachments/assets/da2d2d13-cf6a-420e-ae55-c0e991e09226" />
+
 
 # thank you 
